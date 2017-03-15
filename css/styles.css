@@ -1,4 +1,28 @@
 html, body {
-  width: 100%; }
+  text-align: center;
+  background: #c8c8c8; }
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #383838; }
+
+main {
+  margin-top: 7%; }
+
+#slider {
+  width: 300px; }
+
+.projects {
+  margin: auto;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #383838; }
+
+@media (min-width: 750px) {
+  #slider {
+    width: 50%; } }
 
 /*# sourceMappingURL=styles.css.map */
