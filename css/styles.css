@@ -3,18 +3,17 @@ html, body {
   background: #c8c8c8; }
 
 header h1 {
-  font-size: 1em;
+  font-size: 2em;
   margin-top: 0%; }
 
 header {
-  width: 100%;
   background: #383838; }
 
 main {
-  margin: auto; }
+  margin: 45% auto; }
 
 #slider {
-  width: 300px; }
+  width: 100%; }
 
 .projects {
   display: none; }
@@ -25,9 +24,26 @@ main {
 .projects img:hover {
   height: 80px; }
 
+footer {
+  background: #383838;
+  position: fixed;
+  bottom: 0;
+  display: block;
+  margin: auto;
+  width: 100%; }
+
+footer p, footer a {
+  display: inline-block; }
+
+@media (min-width: 500px) {
+  main {
+    margin: 7% auto; } }
 @media (min-width: 750px) {
   header h1 {
     font-size: 3em; }
+
+  main {
+    margin: 3% auto; }
 
   #slider {
     width: 50%; }
@@ -39,6 +55,9 @@ main {
     margin: auto;
     position: fixed;
     bottom: 0;
-    background: #383838; } }
+    background: #383838; }
+
+  footer {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
